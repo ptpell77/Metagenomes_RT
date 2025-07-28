@@ -1,0 +1,179 @@
+trimdir: trimmed
+samples:
+  Sample_140772:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140772/140772_TTACCGACAT-CGAATACGAC_S1_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140772/140772_TTACCGACAT-CGAATACGAC_S1_R2_001.fastq.gz
+  Sample_140773:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140773/140773_TCGTCTGAAT-GTCCTTGAAC_S2_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140773/140773_TCGTCTGAAT-GTCCTTGAAC_S2_R2_001.fastq.gz
+  Sample_140774:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140774/140774_TTCCAGGTAT-CAGTGCTTAC_S3_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140774/140774_TTCCAGGTAT-CAGTGCTTAC_S3_R2_001.fastq.gz
+  Sample_140775:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140775/140775_TACGGTCTAT-TCCATTGCAC_S4_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140775/140775_TACGGTCTAT-TCCATTGCAC_S4_R2_001.fastq.gz
+  Sample_140776:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140776/140776_AAGACCGTAT-GTCGATTGAC_S5_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140776/140776_AAGACCGTAT-GTCGATTGAC_S5_R2_001.fastq.gz
+  Sample_140777:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140777/140777_CAGGTTCAAT-ATAACGCCAC_S6_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140777/140777_CAGGTTCAAT-ATAACGCCAC_S6_R2_001.fastq.gz
+  Sample_140778:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140778/140778_TAGGAGCTAT-GCCTTAACAC_S7_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140778/140778_TAGGAGCTAT-GCCTTAACAC_S7_R2_001.fastq.gz
+  Sample_140779:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140779/140779_TACTCCAGAT-GGTATAGGAC_S8_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140779/140779_TACTCCAGAT-GGTATAGGAC_S8_R2_001.fastq.gz
+  Sample_140780:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140780/140780_AGTGACCTAT-TCTAGGAGAC_S9_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140780/140780_AGTGACCTAT-TCTAGGAGAC_S9_R2_001.fastq.gz
+  Sample_140781:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140781/140781_AGCCTATCAT-TGCGTAACAC_S10_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140781/140781_AGCCTATCAT-TGCGTAACAC_S10_R2_001.fastq.gz
+  Sample_140782:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140782/140782_TCATCTCCAT-CTTGCTAGAC_S11_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140782/140782_TCATCTCCAT-CTTGCTAGAC_S11_R2_001.fastq.gz
+  Sample_140783:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140783/140783_CCAGTATCAT-AGCGAGATAC_S12_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140783/140783_CCAGTATCAT-AGCGAGATAC_S12_R2_001.fastq.gz
+  Sample_140784:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140784/140784_TTGCGAGAAT-TATGGCACAC_S13_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140784/140784_TTGCGAGAAT-TATGGCACAC_S13_R2_001.fastq.gz
+  Sample_140785:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140785/140785_GAACGAAGAT-GAATCACCAC_S14_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140785/140785_GAACGAAGAT-GAATCACCAC_S14_R2_001.fastq.gz
+  Sample_140786:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140786/140786_CGAATTGCAT-GTAAGGTGAC_S15_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140786/140786_CGAATTGCAT-GTAAGGTGAC_S15_R2_001.fastq.gz
+  Sample_140787:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140787/140787_GGAAGAGAAT-CGAGAGAAAC_S16_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140787/140787_GGAAGAGAAT-CGAGAGAAAC_S16_R2_001.fastq.gz
+  Sample_140788:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140788/140788_TCGGATTCAT-CGCAACTAAC_S17_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140788/140788_TCGGATTCAT-CGCAACTAAC_S17_R2_001.fastq.gz
+  Sample_140790:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140790/140790_GAGAGTACAT-TGGAAGCAAC_S18_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140790/140790_GAGAGTACAT-TGGAAGCAAC_S18_R2_001.fastq.gz
+  Sample_140791:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140791/140791_TCTACGCAAT-CAATAGCCAC_S19_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140791/140791_TCTACGCAAT-CAATAGCCAC_S19_R2_001.fastq.gz
+  Sample_140792:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140792/140792_GCAATTCCAT-CTCGAACAAC_S20_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140792/140792_GCAATTCCAT-CTCGAACAAC_S20_R2_001.fastq.gz
+  Sample_140793:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140793/140793_CTCAGAAGAT-GGCAAGTTAC_S21_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140793/140793_CTCAGAAGAT-GGCAAGTTAC_S21_R2_001.fastq.gz
+  Sample_140794:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140794/140794_GTCCTAAGAT-AGCTACCAAC_S22_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140794/140794_GTCCTAAGAT-AGCTACCAAC_S22_R2_001.fastq.gz
+  Sample_140795:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140795/140795_GCGTTAGAAT-CAGCATACAC_S23_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140795/140795_GCGTTAGAAT-CAGCATACAC_S23_R2_001.fastq.gz
+  Sample_140796:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140796/140796_CAAGGTACAT-CGTATCTCAC_S24_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140796/140796_CAAGGTACAT-CGTATCTCAC_S24_R2_001.fastq.gz
+  Sample_140797:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140797/140797_AGACCTTGAT-TTACGTGCAC_S25_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140797/140797_AGACCTTGAT-TTACGTGCAC_S25_R2_001.fastq.gz
+  Sample_140798:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140798/140798_GTCGTTACAT-AGCTAAGCAC_S26_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140798/140798_GTCGTTACAT-AGCTAAGCAC_S26_R2_001.fastq.gz
+  Sample_140799:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140799/140799_GTAACCGAAT-AAGACACCAC_S27_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140799/140799_GTAACCGAAT-AAGACACCAC_S27_R2_001.fastq.gz
+  Sample_140800:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140800/140800_GAATCCGTAT-CAACTCCAAC_S28_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140800/140800_GAATCCGTAT-CAACTCCAAC_S28_R2_001.fastq.gz
+  Sample_140801:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140801/140801_CATGAGCAAT-GATCTTGCAC_S29_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140801/140801_CATGAGCAAT-GATCTTGCAC_S29_R2_001.fastq.gz
+  Sample_140802:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140802/140802_CTTAGGACAT-CTTCACTGAC_S30_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140802/140802_CTTAGGACAT-CTTCACTGAC_S30_R2_001.fastq.gz
+  Sample_140803:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140803/140803_ATCTGACCAT-CTCGACTTAC_S31_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140803/140803_ATCTGACCAT-CTCGACTTAC_S31_R2_001.fastq.gz
+  Sample_140804:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140804/140804_TCCTCATGAT-GTACACCTAC_S32_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140804/140804_TCCTCATGAT-GTACACCTAC_S32_R2_001.fastq.gz
+  Sample_140805:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140805/140805_AGGATAGCAT-CCAAGGTTAC_S33_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140805/140805_AGGATAGCAT-CCAAGGTTAC_S33_R2_001.fastq.gz
+  Sample_140806:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140806/140806_GGAGGAATAT-GAACGGTTAC_S34_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140806/140806_GGAGGAATAT-GAACGGTTAC_S34_R2_001.fastq.gz
+  Sample_140807:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140807/140807_GACGTCATAT-CCAGTTGAAC_S35_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140807/140807_GACGTCATAT-CCAGTTGAAC_S35_R2_001.fastq.gz
+  Sample_140808:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140808/140808_CCGCTTAAAT-GTCATCGTAC_S36_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140808/140808_CCGCTTAAAT-GTCATCGTAC_S36_R2_001.fastq.gz
+  Sample_140809:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140809/140809_GACGAACTAT-CAATGCGAAC_S37_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140809/140809_GACGAACTAT-CAATGCGAAC_S37_R2_001.fastq.gz
+  Sample_140810:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140810/140810_TCCACGTTAT-GGTTGAACAC_S38_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140810/140810_TCCACGTTAT-GGTTGAACAC_S38_R2_001.fastq.gz
+  Sample_140811:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140811/140811_AACCAGAGAT-CTTCGGTTAC_S39_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140811/140811_AACCAGAGAT-CTTCGGTTAC_S39_R2_001.fastq.gz
+  Sample_140812:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140812/140812_GTCAGTCAAT-CGGCATTAAC_S40_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140812/140812_GTCAGTCAAT-CGGCATTAAC_S40_R2_001.fastq.gz
+  Sample_140813:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140813/140813_CCTTCCATAT-CACGCAATAC_S41_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140813/140813_CCTTCCATAT-CACGCAATAC_S41_R2_001.fastq.gz
+  Sample_140814:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140814/140814_AGGAACACAT-GGAATGTCAC_S42_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140814/140814_AGGAACACAT-GGAATGTCAC_S42_R2_001.fastq.gz
+  Sample_140815:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140815/140815_CTTACAGCAT-TGGTGAAGAC_S43_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140815/140815_CTTACAGCAT-TGGTGAAGAC_S43_R2_001.fastq.gz
+  Sample_140816:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140816/140816_TACCTGCAAT-GGACATCAAC_S44_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140816/140816_TACCTGCAAT-GGACATCAAC_S44_R2_001.fastq.gz
+  Sample_140817:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140817/140817_AGACGCTAAT-GGTGTACAAC_S45_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140817/140817_AGACGCTAAT-GGTGTACAAC_S45_R2_001.fastq.gz
+  Sample_140818:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140818/140818_CAACACAGAT-GATAGCCAAC_S46_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140818/140818_CAACACAGAT-GATAGCCAAC_S46_R2_001.fastq.gz
+  Sample_140819:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140819/140819_GTACCACAAT-CCACAACAAC_S47_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140819/140819_GTACCACAAT-CCACAACAAC_S47_R2_001.fastq.gz
+  Sample_140820:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140820/140820_CGAATACGAT-TTACCGACAC_S48_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140820/140820_CGAATACGAT-TTACCGACAC_S48_R2_001.fastq.gz
+  Sample_140821:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140821/140821_GTCCTTGAAT-TCGTCTGAAC_S49_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140821/140821_GTCCTTGAAT-TCGTCTGAAC_S49_R2_001.fastq.gz
+  Sample_140822:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140822/140822_CAGTGCTTAT-TTCCAGGTAC_S50_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140822/140822_CAGTGCTTAT-TTCCAGGTAC_S50_R2_001.fastq.gz
+  Sample_140823:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140823/140823_TCCATTGCAT-TACGGTCTAC_S51_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140823/140823_TCCATTGCAT-TACGGTCTAC_S51_R2_001.fastq.gz
+  Sample_140824:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140824/140824_GTCGATTGAT-AAGACCGTAC_S52_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140824/140824_GTCGATTGAT-AAGACCGTAC_S52_R2_001.fastq.gz
+  Sample_140825:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140825/140825_ATAACGCCAT-CAGGTTCAAC_S53_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140825/140825_ATAACGCCAT-CAGGTTCAAC_S53_R2_001.fastq.gz
+  Sample_140826:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140826/140826_GCCTTAACAT-TAGGAGCTAC_S54_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140826/140826_GCCTTAACAT-TAGGAGCTAC_S54_R2_001.fastq.gz
+  Sample_140827:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140827/140827_GGTATAGGAT-TACTCCAGAC_S55_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140827/140827_GGTATAGGAT-TACTCCAGAC_S55_R2_001.fastq.gz
+  Sample_140828:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140828/140828_TCTAGGAGAT-AGTGACCTAC_S56_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140828/140828_TCTAGGAGAT-AGTGACCTAC_S56_R2_001.fastq.gz
+  Sample_140829:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140829/140829_TGCGTAACAT-AGCCTATCAC_S57_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140829/140829_TGCGTAACAT-AGCCTATCAC_S57_R2_001.fastq.gz
+  Sample_140830:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140830/140830_CTTGCTAGAT-TCATCTCCAC_S58_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140830/140830_CTTGCTAGAT-TCATCTCCAC_S58_R2_001.fastq.gz
+  Sample_140831:
+    r1: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140831/140831_AGCGAGATAT-CCAGTATCAC_S59_R1_001.fastq.gz
+    r2: /oak/stanford/groups/kpeay/ptpell/Safe_Folder/Sample_140831/140831_AGCGAGATAT-CCAGTATCAC_S59_R2_001.fastq.gz

@@ -1,0 +1,42 @@
+configfile: "fastq_files.yaml"
+SAMPLES = list(config["samples"].keys())
+TRIMDIR = config["trimdir"]
+rule all:
+    input:
+	expand(f"{TRIMDIR}/{{sample}}_trimmed_R1.fastq.gz", sample=SAMPLES),
+        expand(f"{TRIMDIR}/{{sample}}_trimmed_R2.fastq.gz", sample=SAMPLES),
+        expand(f"{TRIMDIR}/{{sample}}_fastp.html", sample=SAMPLES),
+        expand(f"{TRIMDIR}/{{sample}}_fastp.json", sample=SAMPLES)
+rule fastp:
+    input:
+	r1 = lambda wc: config["samples"][wc.sample]["r1"],
+        r2 = lambda wc: config["samples"][wc.sample]["r2"]
+    output:
+	r1_out = f"{TRIMDIR}/{{sample}}_trimmed_R1.fastq.gz",
+        r2_out = f"{TRIMDIR}/{{sample}}_trimmed_R2.fastq.gz",
+        html = f"{TRIMDIR}/{{sample}}_fastp.html",
+        json = f"{TRIMDIR}/{{sample}}_fastp.json"
+    log:
+        f"log/{{sample}}_fastp.log"
+    threads: 16
+    resources:
+	mem_mb=256000,
+        runtime=1440
+    conda:
+	"envs/fastp.yaml"
+    shell:
+	"""
+	mkdir -p {TRIMDIR} log
+        fastp \
+            -i {input.r1} \
+            -I {input.r2} \
+            -o {output.r1_out} \
+            -O {output.r2_out} \
+            --html {output.html} \
+            --json {output.json} \
+            --thread {threads} \
+            --compression 1 \
+            > {log} 2>&1
+        """
+
+
