@@ -1,0 +1,32 @@
+# Samplesheet for sample demultiplexing and file naming.
+samplesheet: "/analysis_dir/config/samplesheet.txt" #samplesheet-Hremoved.txt"
+
+
+# The items below shouldn't be changed unless you switch to a different database (which will require you to directly move that in, 
+# or to change the dockerfile), or unless things are rearranged. 
+# Directory containing fastqfiles:
+fastqdir: "/analysis_dir/fastq_data/"
+# Directory for storing fastp outputs:
+fastp_out: "/analysis_dir/outputs/fastp/"
+# Directory for storing Diamond outputs:
+diamond_out: "/analysis_dir/outputs/diamond/"
+# Specify the database and database name (if a specific one is desired)
+DB: "/analysis_dir/database/CAZyDB.07262023.fa"  # path to the cazyDB file
+DBname: "CAZyDB"
+DBdir: "/analysis_dir/database/"
+
+# indices: "config/indexfordemux.txt"
+# fastqlist: "config/mini_fastqlist.txt"
+# lenR1primer: "23"
+# lenR2primer: "24"
+# lenR1index: "7"
+# lenR2index: "7"
+
+# Input directories.
+# fastqdir: ""
+# demux: "workflow/rules/demux.sh"
+
+# Output directories.
+# demuxdir: "workflow/out/demux"
+# trimdir: "workflow/out/trimmed"
+# outdir: "workflow/out/"
