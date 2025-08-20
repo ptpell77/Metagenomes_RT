@@ -53,6 +53,12 @@ will start the build process, but make be killed due to high resource demands, s
 
 `sbatch BUILDSCRIPT.sh`. This should take roughly 1 HOUR? to run. If completed successfully, you should see a message along the lines of 'XXX', and the file XXX.sif should be added to the current working directory.
 
+In order to move the CAZy database locally, you will need to do one more step, once. Run the command:
+
+`singularity run IMAGENAME.sif`.
+
+This will execute the instructions in the last '%run script' section of the definition file, which will download the CAZy DB into the /analysis_dir/database/ folder. Once this has been done, it doesn't need to be repeated. 
+
 ### Test run in Singularity
 ...
 
@@ -61,11 +67,11 @@ To run the analysis, make sure the samplesheet describes the paths is pointing t
 
 `singularity shell {IMAGENAME.sif}`.
 
-You should now be in the CURRENT WORKIND DIRECTORY, and have access to all the same files you did outside of the container (and any changes you make to them will besaved, so be as careful as you would normally!). 
+You should now be in the CURRENT WORKING DIRECTORY, and have access to all the same files you did outside of the container (and any changes you make to them will be saved, so be as careful as you would normally!). 
 Check that the config file paths are correct, then launch a 'dry run' by running:
 
 `snakemake -n`
 
-in the directory contianing the Snakefile. If this goes smoothly, you can launch a full run using 'snakemake --cores X', with 'X' replaced by the number of cores to use. For short jobs, this should run okay, but for larger runs, use a slurm script to allocate time resources.
-An example script is included in XXX. For a singe test file ('XXX') with X cores, X memory, Sherlock took X long to run the full pipeline (X for fastp and X for DIAMOND).
+in the directory contianing the Snakefile. If this goes smoothly, you can launch a full run using 'snakemake --cores X', with 'X' replaced by the number of cores to use. For short jobs, this should run as is, but for larger runs, use a slurm script to allocate time resources.
+An example script is included in XXX. For a single test file ('XXX') with X cores, X memory, Sherlock took X long to run the full pipeline (X for fastp and X for DIAMOND).
 
