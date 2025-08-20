@@ -45,17 +45,18 @@ If the run is successful, you should see a message saying 'XXX' at the end.
 
 ## Using Singularity/Apptainer
 ### Building Singularity image
-To build the Singularity image, move the zip file 'XXX' located in XXX onto the cluster, where Singularity/Apptainer should already be installed. The command:
 
-`singularity build {IMAGENAME.sif} DEFFILENAME`
+To build the Singularity image, move the zip file 'singularity_things.zip' located in GoogleDrive(?) onto the cluster, where Singularity/Apptainer should already be installed. The command:
 
-will start the build process, but make be killed due to high resource demands, so you can use the snakemake script XXX to launch the build by running:
+`singularity build testimage.sif singularity_def_file.txt`
 
-`sbatch BUILDSCRIPT.sh`. This should take roughly 1 HOUR? to run. If completed successfully, you should see a message along the lines of 'XXX', and the file XXX.sif should be added to the current working directory.
+will start the build process, but make be killed due to high resource demands, so you can use the snakemake script 'slurm_buildImage' to launch the build by running:
+
+`sbatch slurm_buildImage.sh`. This should take roughly <15 minutes to run. If completed successfully, you should see a message along the lines of 'XXX', and the file XXX.sif should be added to the current working directory.
 
 In order to move the CAZy database locally, you will need to do one more step, once. Run the command:
 
-`singularity run IMAGENAME.sif`.
+`singularity run testimage.sif`.
 
 This will execute the instructions in the last '%run script' section of the definition file, which will download the CAZy DB into the /analysis_dir/database/ folder. Once this has been done, it doesn't need to be repeated. 
 
@@ -75,3 +76,12 @@ Check that the config file paths are correct, then launch a 'dry run' by running
 in the directory contianing the Snakefile. If this goes smoothly, you can launch a full run using 'snakemake --cores X', with 'X' replaced by the number of cores to use. For short jobs, this should run as is, but for larger runs, use a slurm script to allocate time resources.
 An example script is included in XXX. For a single test file ('XXX') with X cores, X memory, Sherlock took X long to run the full pipeline (X for fastp and X for DIAMOND).
 
+
+## Unlocking:
+If the directory is locked because slurm/something else kills a process, you can unlock it from analysis_dir, by running:
+
+`singularity shell ../testimage.sif`
+
+`snakemake --unlock`
+
+`exit`
