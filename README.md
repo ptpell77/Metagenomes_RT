@@ -85,3 +85,44 @@ If the directory is locked because slurm/something else kills a process, you can
 `snakemake --unlock`
 
 `exit`
+
+## Rerunning incomplete items:
+If a job is killed unexpectedly, it may not have time to delete partially completed files. If this is the case, you may need to add the flag:
+`--rerun-incomplete`
+to the `snakemake` command when starting the next run so that these incomplete files are regenerated before moving on to the next step. 
+
+## Slurm Resources:
+To run this pipeline on Sherlock, you'll need to specify the resources needed. Assuming the typical file size is about 15 GB for each forward/reverse file (so 30 GB per sample), the following settings are recommended for each step:
+
+#### fastp:
+* threads: 8
+* memory: 2 GB
+* time: 20 min
+Running fastp should take about 15 minutes per paired end read set. Increasing the number of cores will speed it up, but has limited returns beyond XXX. Likewise, increasing the memory beyond XXX will slightly improve timing, but running more steps in parallel is a more efficient way to speed up the analysis. 
+
+#### diamond build db (for cazyDB):
+* threads: 8 
+* memory: 2 GB 
+* time: 2 min 
+Running the build DB step on Sherlock with 8 cores should take under 1 minute, and not exceed 2 GB of memory at any time point. 
+  
+#### diampond blastx:
+* threads: XXX
+* memory: XXX
+* time: XXX
+  
+
+#### merge diamond outputs:
+* threads: 1 
+* memory: XXX
+* time: XXX
+This step relies on a simply python script that is not capable of multithreading, so providing more cores/threads won't speed anything up. This should take approximately XXX per set of paired end reads, so the time provided should be roughly XXX times the number of input pairs.
+
+Default resource settings are specified at the top of the Snakefile. The default settings are: 
+`resources:\
+    mem_mb=4000 # default to 4 GB per job\
+    time=1:00:00 # default to max 1 hour per job\
+threads: 1 # default to 1 thread per job`
+
+These will only be used when resources are specified directly in the rule, which shouldn't be the case for any rules, but protects against any issues with resource specification. 
+  
